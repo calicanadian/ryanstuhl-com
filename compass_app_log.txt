@@ -1,0 +1,236 @@
+2014-10-18 23:15:43     error sass/bootstrap.scss (Line 12: File to import not found or unreadable: variables.
+Load paths:
+  /Applications/MAMP/htdocs/ryanstuhl-com/public/sass
+  /Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/blueprint/stylesheets
+  /Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets
+  Compass::SpriteImporter)
+2014-10-18 23:15:44 overwrite stylesheets/bootstrap.css 
+2014-10-18 23:16:20    remove .sass-cache/ 
+2014-10-18 23:16:21     error sass/bootstrap.scss (Line 12: File to import not found or unreadable: variables.
+Load paths:
+  /Applications/MAMP/htdocs/ryanstuhl-com/public/sass
+  /Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/blueprint/stylesheets
+  /Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets
+  Compass::SpriteImporter)
+2014-10-18 23:16:21    create css/bootstrap.css 
+2014-10-18 23:16:21    create css/ie.css 
+2014-10-18 23:16:21    create css/print.css 
+2014-10-18 23:16:22    create css/screen.css 
+2014-10-18 23:16:23     error sass/bootstrap.scss (Line 12: File to import not found or unreadable: variables.
+Load paths:
+  /Applications/MAMP/htdocs/ryanstuhl-com/public/sass
+  /Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/blueprint/stylesheets
+  /Library/Ruby/Gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets
+  Compass::SpriteImporter)
+2014-10-18 23:16:23 overwrite css/bootstrap.css 
+2014-10-18 23:16:58 overwrite css/bootstrap.css 
+2014-10-18 23:17:18    create css/styles.css 
+2014-10-18 23:17:31 identical css/styles.css 
+2014-10-19 00:29:17 overwrite css/styles.css 
+2014-10-19 00:29:38 overwrite css/styles.css 
+2014-10-19 00:29:50 overwrite css/styles.css 
+2014-10-19 00:29:56 overwrite css/styles.css 
+2014-10-19 00:33:26 overwrite css/styles.css 
+2014-10-19 00:34:02 overwrite css/styles.css 
+2014-10-19 15:28:46 overwrite css/styles.css 
+2014-10-21 15:13:43 overwrite css/styles.css 
+2014-10-21 15:16:40 overwrite css/styles.css 
+2014-10-21 15:18:10 overwrite css/styles.css 
+2014-10-21 15:22:42 overwrite css/styles.css 
+2014-10-21 15:22:54 overwrite css/styles.css 
+2014-10-21 15:23:09 overwrite css/styles.css 
+2014-10-21 15:28:05 overwrite css/styles.css 
+2014-10-21 15:34:37     error sass/bootstrap.scss (Line 19 of sass/lib/_variables.scss: Invalid CSS after "$gray-darker": expected selector or at-rule, was ":            li...")
+2014-10-21 15:34:37 overwrite css/bootstrap.css 
+2014-10-21 15:34:37     error sass/styles.scss (Line 19 of sass/lib/_variables.scss: Invalid CSS after "$gray-darker": expected selector or at-rule, was ":            li...")
+2014-10-21 15:34:37 overwrite css/styles.css 
+2014-10-21 15:34:38     error sass/bootstrap.scss (Line 19 of sass/lib/_variables.scss: Invalid CSS after "$gray-darker": expected selector or at-rule, was ":            li...")
+2014-10-21 15:34:38 identical css/bootstrap.css 
+2014-10-21 15:34:38     error sass/styles.scss (Line 19 of sass/lib/_variables.scss: Invalid CSS after "$gray-darker": expected selector or at-rule, was ":            li...")
+2014-10-21 15:34:38 identical css/styles.css 
+2014-10-21 15:34:53 overwrite css/bootstrap.css 
+2014-10-21 15:34:53 overwrite css/styles.css 
+2014-10-21 15:37:52 identical css/bootstrap.css 
+2014-10-21 15:37:53 identical css/styles.css 
+2014-10-21 15:37:58 overwrite css/styles.css 
+2014-10-21 15:38:31 overwrite css/styles.css 
+2014-10-21 15:44:05 overwrite css/styles.css 
+2014-10-21 15:46:02 overwrite css/styles.css 
+2014-10-21 15:48:56 overwrite css/styles.css 
+2014-10-21 15:49:46 overwrite css/styles.css 
+2014-10-21 15:50:08 overwrite css/styles.css 
+2014-10-21 15:55:26 overwrite css/styles.css 
+2014-10-21 15:57:02 overwrite css/styles.css 
+2014-10-21 15:57:47 overwrite css/styles.css 
+2014-10-21 15:58:27 overwrite css/styles.css 
+2014-10-21 15:59:53 overwrite css/styles.css 
+2014-10-21 16:00:20 overwrite css/styles.css 
+2014-10-21 16:00:32 overwrite css/styles.css 
+2014-10-21 16:01:02 overwrite css/styles.css 
+2014-10-21 16:01:16 overwrite css/styles.css 
+2014-10-21 16:01:24 overwrite css/styles.css 
+2014-10-21 16:07:49 overwrite css/styles.css 
+2014-10-21 16:08:02 overwrite css/styles.css 
+2014-10-21 16:23:08 overwrite css/styles.css 
+2014-10-21 16:23:27 overwrite css/styles.css 
+2014-10-21 16:23:34 overwrite css/styles.css 
+2014-10-21 16:24:12 overwrite css/styles.css 
+2014-10-21 16:25:02 overwrite css/styles.css 
+2014-10-21 16:26:38 overwrite css/styles.css 
+2014-10-21 16:27:20 overwrite css/styles.css 
+2014-10-21 16:28:37 identical css/bootstrap.css 
+2014-10-21 16:28:37 identical css/styles.css 
+2014-10-21 16:28:41 overwrite css/styles.css 
+2014-10-21 16:30:18 overwrite css/styles.css 
+2014-10-21 16:30:35 overwrite css/styles.css 
+2014-10-21 16:30:53 overwrite css/styles.css 
+2014-10-21 16:31:30 overwrite css/styles.css 
+2014-10-21 16:31:39 overwrite css/styles.css 
+2014-10-21 16:32:25 overwrite css/styles.css 
+2014-10-21 16:32:43 overwrite css/styles.css 
+2014-10-21 16:34:10 overwrite css/styles.css 
+2014-10-21 16:34:29 overwrite css/styles.css 
+2014-10-21 16:35:05 overwrite css/styles.css 
+2014-10-21 16:36:56 overwrite css/styles.css 
+2014-10-21 16:39:24 overwrite css/styles.css 
+2014-10-21 16:44:45 overwrite css/styles.css 
+2014-10-21 16:47:31 overwrite css/styles.css 
+2014-10-21 16:55:36 overwrite css/styles.css 
+2014-10-21 16:58:01 identical css/bootstrap.css 
+2014-10-21 16:58:01 identical css/styles.css 
+2014-10-21 16:58:25 overwrite css/styles.css 
+2014-10-21 16:59:02 overwrite css/styles.css 
+2014-10-21 16:59:35 overwrite css/styles.css 
+2014-10-21 16:59:48 overwrite css/styles.css 
+2014-10-21 18:42:50 overwrite css/styles.css 
+2014-10-21 18:43:22 overwrite css/styles.css 
+2014-10-21 18:43:38 overwrite css/styles.css 
+2014-10-21 18:44:14 overwrite css/styles.css 
+2014-10-21 18:44:36 overwrite css/styles.css 
+2014-10-21 18:44:52 overwrite css/styles.css 
+2014-10-21 18:52:16 overwrite css/styles.css 
+2014-10-21 18:54:26 overwrite css/styles.css 
+2014-10-21 18:58:14 overwrite css/styles.css 
+2014-10-21 18:59:15 overwrite css/styles.css 
+2014-10-21 19:04:33 overwrite css/styles.css 
+2014-10-21 19:06:58 overwrite css/styles.css 
+2014-10-21 19:07:15 overwrite css/styles.css 
+2014-10-21 19:08:00 overwrite css/styles.css 
+2014-10-23 09:00:24 overwrite css/styles.css 
+2014-10-23 09:08:48 overwrite css/styles.css 
+2014-10-23 09:10:22 overwrite css/styles.css 
+2014-10-23 09:12:21 overwrite css/styles.css 
+2014-10-23 19:07:44 overwrite css/styles.css 
+2014-10-23 19:08:17 overwrite css/styles.css 
+2014-10-23 19:10:11 overwrite css/styles.css 
+2014-10-23 19:10:35 overwrite css/styles.css 
+2014-10-23 19:11:49 overwrite css/styles.css 
+2014-10-23 19:16:27 overwrite css/styles.css 
+2014-10-23 19:22:17 overwrite css/styles.css 
+2014-10-23 19:24:17 overwrite css/styles.css 
+2014-10-23 19:42:30 overwrite css/styles.css 
+2014-10-23 19:45:50 overwrite css/styles.css 
+2014-10-23 19:50:31 identical css/bootstrap.css 
+2014-10-23 19:50:32 identical css/styles.css 
+2014-10-23 19:51:47 identical css/bootstrap.css 
+2014-10-23 19:51:48 identical css/styles.css 
+2014-10-23 19:52:21 overwrite css/styles.css 
+2014-10-23 19:57:41 overwrite css/styles.css 
+2014-10-23 19:59:35 overwrite css/styles.css 
+2014-10-23 20:01:14     error sass/styles.scss (Line 287: Undefined variable: "$brown-grad-4".)
+2014-10-23 20:01:14 overwrite css/styles.css 
+2014-10-23 20:01:25 overwrite css/styles.css 
+2014-10-23 20:02:02 overwrite css/styles.css 
+2014-10-23 20:03:30 overwrite css/styles.css 
+2014-10-23 20:03:50 overwrite css/styles.css 
+2014-10-23 20:04:09 overwrite css/styles.css 
+2014-10-23 20:43:14 overwrite css/styles.css 
+2014-10-24 08:48:05 overwrite css/styles.css 
+2014-10-27 09:56:31 overwrite css/styles.css 
+2014-10-27 09:56:58 overwrite css/styles.css 
+2014-10-27 10:01:59 identical css/styles.css 
+2014-10-27 10:04:33 overwrite css/bootstrap.css 
+2014-10-27 17:14:25 overwrite css/styles.css 
+2014-10-28 08:54:45 overwrite css/styles.css 
+2014-10-28 08:57:45 overwrite css/styles.css 
+2014-10-28 10:23:43 overwrite css/styles.css 
+2014-10-28 10:32:19 overwrite css/styles.css 
+2014-10-28 10:34:13 identical css/styles.css 
+2014-10-28 10:34:26 overwrite css/styles.css 
+2014-10-28 10:34:42 overwrite css/styles.css 
+2014-10-28 10:34:55 overwrite css/styles.css 
+2014-10-28 10:41:58 overwrite css/styles.css 
+2014-10-28 10:45:05 overwrite css/styles.css 
+2014-10-28 10:46:23 overwrite css/styles.css 
+2014-10-28 11:24:17 overwrite css/styles.css 
+2014-10-28 11:39:27 overwrite css/styles.css 
+2014-10-28 11:39:46 overwrite css/styles.css 
+2014-10-28 11:39:51 overwrite css/styles.css 
+2014-10-28 11:42:54 overwrite css/styles.css 
+2014-10-28 11:43:14 overwrite css/styles.css 
+2014-10-28 11:55:46 overwrite css/styles.css 
+2014-10-28 12:00:07 overwrite css/styles.css 
+2014-10-28 12:00:17 overwrite css/styles.css 
+2014-10-28 12:04:05 overwrite css/styles.css 
+2014-10-28 12:05:27 overwrite css/styles.css 
+2014-10-28 12:08:08 overwrite css/styles.css 
+2014-10-28 12:51:23 overwrite css/styles.css 
+2014-10-28 12:52:03 overwrite css/styles.css 
+2014-10-28 12:52:35 overwrite css/styles.css 
+2014-10-28 12:52:51 overwrite css/styles.css 
+2014-10-28 12:53:17 overwrite css/styles.css 
+2014-10-28 12:53:27 overwrite css/styles.css 
+2014-10-28 12:57:31 overwrite css/styles.css 
+2014-10-28 12:58:03 overwrite css/styles.css 
+2014-10-28 12:58:16 overwrite css/styles.css 
+2014-10-28 12:59:26 overwrite css/styles.css 
+2014-10-28 13:00:05 overwrite css/styles.css 
+2014-10-28 13:00:34 overwrite css/styles.css 
+2014-10-28 13:02:22 overwrite css/styles.css 
+2014-10-28 13:02:53 overwrite css/styles.css 
+2014-10-28 13:03:01 overwrite css/styles.css 
+2014-10-28 13:09:03 overwrite css/styles.css 
+2014-10-28 13:13:55 overwrite css/styles.css 
+2014-10-28 13:14:22 overwrite css/styles.css 
+2014-10-28 13:14:42 overwrite css/styles.css 
+2014-10-28 13:16:02 identical css/bootstrap.css 
+2014-10-28 13:16:03 identical css/styles.css 
+2014-10-28 13:16:13     error sass/styles.scss (Line 447: Undefined variable: "$beighe".)
+2014-10-28 13:16:14 overwrite css/styles.css 
+2014-10-28 13:16:34 overwrite css/styles.css 
+2014-10-28 13:18:40 identical css/bootstrap.css 
+2014-10-28 13:18:40 identical css/styles.css 
+2014-10-28 13:18:46 overwrite css/styles.css 
+2014-10-28 13:19:45 overwrite css/styles.css 
+2014-10-28 13:40:39 overwrite css/styles.css 
+2014-10-28 13:41:28 overwrite css/styles.css 
+2014-10-28 13:42:25 overwrite css/styles.css 
+2014-10-28 13:42:51 overwrite css/styles.css 
+2014-10-28 13:43:34 overwrite css/styles.css 
+2014-10-28 14:57:55 overwrite css/styles.css 
+2014-10-28 15:00:03 overwrite css/styles.css 
+2014-10-28 15:10:38 overwrite css/styles.css 
+2014-10-28 15:11:40     error sass/styles.scss (Line 399: Invalid CSS after "    	bottom:20%": expected ";", was ":;")
+2014-10-28 15:11:40 overwrite css/styles.css 
+2014-10-28 15:11:42     error sass/styles.scss (Line 400: Invalid CSS after "    	left": expected ";", was ":31%;")
+2014-10-28 15:11:42 overwrite css/styles.css 
+2014-10-28 15:11:44 overwrite css/styles.css 
+2014-10-28 15:20:18 overwrite css/styles.css 
+2014-10-28 15:23:40 overwrite css/styles.css 
+2014-10-28 15:44:34 overwrite css/styles.css 
+2014-10-28 15:44:50 overwrite css/styles.css 
+2014-10-28 15:50:06 overwrite css/styles.css 
+2014-10-28 15:51:05 overwrite css/styles.css 
+2014-10-28 15:51:37     error sass/styles.scss (Line 607: Invalid CSS after "}": expected "}", was "")
+2014-10-28 15:51:37 overwrite css/styles.css 
+2014-10-28 15:52:16     error sass/styles.scss (Line 607: Invalid CSS after "}": expected "}", was "")
+2014-10-28 15:52:16 identical css/styles.css 
+2014-10-28 15:52:54 overwrite css/styles.css 
+2014-10-28 15:53:46 overwrite css/styles.css 
+2014-10-28 15:56:06 overwrite css/styles.css 
+2014-10-28 15:56:55 overwrite css/styles.css 
+2014-10-28 16:06:06 identical css/bootstrap.css 
+2014-10-28 16:06:07 identical css/styles.css 
+2014-10-28 16:07:24 overwrite css/styles.css 
+2014-10-28 16:08:39 identical css/bootstrap.css 
+2014-10-28 16:08:40 overwrite css/styles.css 

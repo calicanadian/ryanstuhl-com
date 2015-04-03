@@ -1,0 +1,812 @@
+/* line 5, ../sass/styles.scss */
+body {
+  margin-top: -20px;
+}
+
+/* line 9, ../sass/styles.scss */
+.clear {
+  width: 1px;
+  height: 1px;
+  line-height: 0px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  clear: both;
+}
+
+/* line 20, ../sass/styles.scss */
+#wrapper {
+  width: auto;
+  margin: 0 auto;
+  line-height: 1;
+  text-align: left;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 29, ../sass/styles.scss */
+#content {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 36, ../sass/styles.scss */
+.navbar {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  padding: 25px 0;
+  margin: 0;
+}
+/* line 44, ../sass/styles.scss */
+.navbar .nav-inner {
+  width: auto;
+  height: auto;
+  position: relative;
+  z-index: 1001;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 51, ../sass/styles.scss */
+.navbar .nav-inner a:link, .navbar .nav-inner a:visited {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 26px;
+  color: #b6b6b6;
+  text-decoration: none;
+  line-height: 1;
+  margin: 0 1.5%;
+  padding: 0;
+}
+/* line 61, ../sass/styles.scss */
+.navbar .nav-inner a:hover {
+  color: #262626;
+}
+/* line 64, ../sass/styles.scss */
+.navbar .nav-inner #home {
+  width: 6%;
+  height: auto;
+  display: inline-block;
+}
+/* line 69, ../sass/styles.scss */
+.navbar .nav-inner #home img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 76, ../sass/styles.scss */
+#logo {
+  width: 10%;
+  height: auto;
+  position: relative;
+  z-index: 1000;
+  margin: 15px auto 0;
+  padding: 0;
+}
+/* line 83, ../sass/styles.scss */
+#logo img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 91, ../sass/styles.scss */
+#aboutMe {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  /*padding: 15.5% 0;*/
+}
+/* line 100, ../sass/styles.scss */
+#aboutMe #aboutText {
+  width: 37.6%;
+  height: auto;
+  position: relative;
+  z-index: 6;
+  background: rgba(255, 255, 255, 0.7);
+  top: 30px;
+  margin: 0 auto 50px;
+  padding: 20px 0;
+}
+/* line 109, ../sass/styles.scss */
+#aboutMe #aboutText h2 {
+  font-family: 'lucida grande', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 1em;
+  padding: 0;
+  color: black;
+}
+/* line 117, ../sass/styles.scss */
+#aboutMe #aboutText .hr {
+  width: 90%;
+  height: 1px;
+  background: black;
+  margin: 0 0 14px 5%;
+  padding: 0;
+}
+/* line 124, ../sass/styles.scss */
+#aboutMe #aboutText p {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin: 0 5% 1em;
+  line-height: 1.25;
+  padding: 0;
+}
+/* line 134, ../sass/styles.scss */
+#aboutMe #contactFormContainer {
+  display: none;
+  width: 38%;
+  height: auto;
+  position: absolute;
+  z-index: 10;
+  top: 5px;
+  left: 31%;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 140px 3% 60px;
+  background: white;
+}
+/* line 150, ../sass/styles.scss */
+#aboutMe #contactFormContainer a#contactFormClose {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: none;
+  position: absolute;
+  z-index: 12;
+  top: 1%;
+  right: 0;
+  /*border:1px solid $gray-light;
+  border-radius:18px;
+  -webkit-border-radius:18px;
+  -moz-border-radius:18px;
+  -ms-border-radius:18px;
+  -o-border-radius:18px;*/
+  padding: 2px 10px;
+  margin: 0;
+}
+/* line 170, ../sass/styles.scss */
+#aboutMe #contactFormContainer a#contactFormClose:hover {
+  color: #333333;
+  border-color: #333333;
+}
+/* line 174, ../sass/styles.scss */
+#aboutMe #contactFormContainer input {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 0 inset;
+  border: 1px solid #999999;
+  line-height: 2;
+}
+/* line 184, ../sass/styles.scss */
+#aboutMe #contactFormContainer input:focus {
+  border-color: #00d1ed;
+}
+/* line 188, ../sass/styles.scss */
+#aboutMe #contactFormContainer input#contact-clear {
+  line-height: 1.5;
+  padding: 6px 8%;
+  border: none;
+}
+/* line 193, ../sass/styles.scss */
+#aboutMe #contactFormContainer textarea {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 0 inset;
+  border: 1px solid #999999;
+  margin-bottom: 60px;
+}
+/* line 203, ../sass/styles.scss */
+#aboutMe #contactFormContainer textarea:focus {
+  border-color: #00d1ed;
+}
+/* line 206, ../sass/styles.scss */
+#aboutMe #contactFormContainer button#contact-send {
+  line-height: 1.5;
+  padding: 6px 8%;
+  border: none;
+}
+/* line 211, ../sass/styles.scss */
+#aboutMe #contactFormContainer .error {
+  border-color: #bf0011;
+  background: #ffe4d4;
+}
+
+/* line 218, ../sass/styles.scss */
+#between1 {
+  background: url("/img/code-background.png") 50% 0 fixed;
+  background-size: cover;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 100px 0;
+}
+
+/* line 231, ../sass/styles.scss */
+#work h2 {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+  text-align: center;
+  line-height: 0.25;
+  margin-bottom: 1.5em;
+}
+/* line 238, ../sass/styles.scss */
+#work h2 span {
+  display: inline-block;
+  position: relative;
+}
+/* line 242, ../sass/styles.scss */
+#work h2 span:before, #work h2 span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid black;
+  top: 0;
+  width: 600px;
+}
+/* line 250, ../sass/styles.scss */
+#work h2 span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+/* line 254, ../sass/styles.scss */
+#work h2 span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+/* line 259, ../sass/styles.scss */
+#work img.ebay {
+  width: 75%;
+  height: auto;
+  position: relative;
+  margin: 0 auto 20px;
+  left: 12.5%;
+}
+/* line 266, ../sass/styles.scss */
+#work img.facebook {
+  width: 75%;
+  height: auto;
+  position: relative;
+  margin: 0 auto 20px;
+  left: 12.5%;
+}
+/* line 273, ../sass/styles.scss */
+#work img.h5c3 {
+  width: 75%;
+  height: auto;
+  position: relative;
+  margin: 0 auto 20px;
+  left: 12.5%;
+}
+/* line 280, ../sass/styles.scss */
+#work a.example-thumb {
+  width: 100%;
+  height: auto;
+  display: block;
+  color: transparent;
+  border: none;
+  text-decoration: none;
+  margin: 0 0 15px;
+  padding: 0;
+  border: 1px solid #999999;
+}
+/* line 290, ../sass/styles.scss */
+#work a.example-thumb img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 298, ../sass/styles.scss */
+#experience {
+  overflow: hidden;
+  background-image: url("/img/backgrounds/construction.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 304, ../sass/styles.scss */
+#experience img.ux-badge {
+  width: 88%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+/* line 311, ../sass/styles.scss */
+#experience img.dev-badge {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+/* line 318, ../sass/styles.scss */
+#experience button.learn_more {
+  background: #307c1f;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+/* line 324, ../sass/styles.scss */
+#experience button.learn_more:hover {
+  background: #42ab2a;
+}
+
+/* /process */
+/* line 331, ../sass/styles.scss */
+.experience .container {
+  height: 83%;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  right: 20%;
+}
+/* line 337, ../sass/styles.scss */
+.experience .container h1 {
+  color: white;
+  text-shadow: -1px 1px 0 black;
+  position: relative;
+  padding: 25px 0 0;
+  margin: 0 50% 1em 10%;
+}
+/* line 344, ../sass/styles.scss */
+.experience .container p {
+  color: white;
+  text-shadow: -1px 1px 0 black;
+  padding: 0;
+  margin: 0 50% 1em 10%;
+}
+/* line 351, ../sass/styles.scss */
+.experience button#back_to_top {
+  margin-left: 10%;
+}
+/* line 354, ../sass/styles.scss */
+.experience button#learn_more {
+  background: #307c1f;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+/* line 360, ../sass/styles.scss */
+.experience button#learn_more:hover {
+  background: #42ab2a;
+}
+/* line 363, ../sass/styles.scss */
+.experience a.readmore {
+  margin-left: 10%;
+  background: #307c1f;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+/* line 370, ../sass/styles.scss */
+.experience a.readmore:hover {
+  background: #42ab2a;
+}
+/* line 373, ../sass/styles.scss */
+.experience section {
+  position: relative;
+}
+/* line 376, ../sass/styles.scss */
+.experience #process {
+  background-image: url("/img/backgrounds/construction.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 382, ../sass/styles.scss */
+.experience #between_1 {
+  background: url("/img/backgrounds/flowchart.jpg") 50% 0 fixed;
+  background-size: cover;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 100px 0;
+}
+/* line 393, ../sass/styles.scss */
+.experience #between_2 {
+  background: url("/img/code-background.png") 50% 0 fixed;
+  background-size: cover;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 100px 0;
+}
+/* line 404, ../sass/styles.scss */
+.experience #between_3 {
+  background: url("/img/responsive_between.jpg") 50% 0 fixed;
+  background-size: cover;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 100px 0;
+}
+/* line 415, ../sass/styles.scss */
+.experience #between_4 {
+  background: url("/img/delivery_between.jpg") 50% 0 fixed;
+  background-size: cover;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  padding: 100px 0;
+}
+/* line 426, ../sass/styles.scss */
+.experience #user_experience {
+  background-image: url("/img/backgrounds/blueprints.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 431, ../sass/styles.scss */
+.experience #development {
+  background-image: url("/img/perspective_website.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 435, ../sass/styles.scss */
+.experience #development h1 {
+  text-align: right;
+  color: #324f6d;
+  text-shadow: none;
+  margin: 0 10% 1em 50%;
+}
+/* line 441, ../sass/styles.scss */
+.experience #development p {
+  text-align: right;
+  color: black;
+  text-shadow: 0 1px 0 white;
+  margin: 0 10% 1em 50%;
+}
+/* line 447, ../sass/styles.scss */
+.experience #development a.readmore {
+  margin-left: 67%;
+}
+/* line 451, ../sass/styles.scss */
+.experience #responsive {
+  background-image: url("/img/macbook_responsive.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 455, ../sass/styles.scss */
+.experience #responsive h1 {
+  color: #324f6d;
+  text-shadow: -1px 1px 0 white;
+}
+/* line 459, ../sass/styles.scss */
+.experience #responsive p {
+  color: #324f6d;
+  text-shadow: -1px 1px 0 white;
+}
+/* line 464, ../sass/styles.scss */
+.experience #delivery {
+  background-image: radial-gradient(#324f6d, #000000);
+}
+/* line 466, ../sass/styles.scss */
+.experience #delivery h1 {
+  margin: 0 9% 1em;
+}
+/* line 469, ../sass/styles.scss */
+.experience #delivery p {
+  margin: 0 9% 1em;
+}
+/* line 472, ../sass/styles.scss */
+.experience #delivery button#back_to_top {
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
+/* line 478, ../sass/styles.scss */
+.experience #contactFormContainer {
+  display: none;
+  width: 38%;
+  height: auto;
+  position: absolute;
+  z-index: 10;
+  bottom: 13%;
+  left: 31%;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 40px 3% 40px;
+  background: white;
+}
+/* line 494, ../sass/styles.scss */
+.experience #contactFormContainer a#contactFormClose {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: none;
+  position: absolute;
+  z-index: 12;
+  top: 1%;
+  right: 0;
+  /*border:1px solid $gray-light;
+  border-radius:18px;
+  -webkit-border-radius:18px;
+  -moz-border-radius:18px;
+  -ms-border-radius:18px;
+  -o-border-radius:18px;*/
+  padding: 2px 10px;
+  margin: 0;
+}
+/* line 514, ../sass/styles.scss */
+.experience #contactFormContainer a#contactFormClose:hover {
+  color: #333333;
+  border-color: #333333;
+}
+/* line 518, ../sass/styles.scss */
+.experience #contactFormContainer input {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 0 inset;
+  border: 1px solid #999999;
+  line-height: 2;
+}
+/* line 528, ../sass/styles.scss */
+.experience #contactFormContainer input:focus {
+  border-color: #00d1ed;
+}
+/* line 531, ../sass/styles.scss */
+.experience #contactFormContainer input#contact-clear {
+  line-height: 1.5;
+  border: none;
+  padding: 6px 8%;
+}
+/* line 536, ../sass/styles.scss */
+.experience #contactFormContainer button#contact-send {
+  line-height: 1.5;
+  border: none;
+  padding: 6px 8%;
+}
+/* line 541, ../sass/styles.scss */
+.experience #contactFormContainer textarea {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 0 inset;
+  border: 1px solid #999999;
+}
+/* line 550, ../sass/styles.scss */
+.experience #contactFormContainer textarea:focus {
+  border-color: #00d1ed;
+}
+/* line 553, ../sass/styles.scss */
+.experience #contactFormContainer #contactUs p {
+  margin: 0 0 1em 0;
+}
+
+/* night theme */
+/* line 562, ../sass/styles.scss */
+section.night {
+  background-image: url("/img/backgrounds/regal_black.jpg");
+}
+
+/* line 565, ../sass/styles.scss */
+.nav-night {
+  background: linear-gradient(#363636, #000000);
+  background: -webkit-linear-gradient(#363636, black);
+  background: -moz-linear-gradient(#363636, black);
+  background: -ms-linear-gradient(#363636, black);
+  background: -o-linear-gradient(#363636, black);
+}
+
+/* line 573, ../sass/styles.scss */
+.exp-night a#next_slide {
+  border-color: black;
+  color: black;
+}
+/* line 577, ../sass/styles.scss */
+.exp-night a#next_slide:hover {
+  border-color: white;
+  background: black;
+  color: white;
+}
+
+/* line 584, ../sass/styles.scss */
+section.morning {
+  background-image: url("/img/backgrounds/regal_blue.jpg");
+}
+
+/* line 587, ../sass/styles.scss */
+.nav-morning {
+  background: linear-gradient(#132333, #324f6d);
+  background: -webkit-linear-gradient(#132333, #324f6d);
+  background: -moz-linear-gradient(#132333, #324f6d);
+  background: -ms-linear-gradient(#132333, #324f6d);
+  background: -o-linear-gradient(#132333, #324f6d);
+}
+
+/* line 595, ../sass/styles.scss */
+.exp-morning a#next_slide {
+  border-color: #324f6d;
+  color: #324f6d;
+}
+/* line 599, ../sass/styles.scss */
+.exp-morning a#next_slide:hover {
+  border-color: #132333;
+  background: #aecbee;
+  color: #132333;
+}
+
+/* line 606, ../sass/styles.scss */
+section.afternoon {
+  background-image: url("/img/backgrounds/regal_brown.jpg");
+}
+
+/* line 609, ../sass/styles.scss */
+.nav-afternoon {
+  background: linear-gradient(#352b29, #16110e);
+  background: -webkit-linear-gradient(#352b29, #16110e);
+  background: -moz-linear-gradient(#352b29, #16110e);
+  background: -ms-linear-gradient(#352b29, #16110e);
+  background: -o-linear-gradient(#352b29, #16110e);
+}
+
+/* line 617, ../sass/styles.scss */
+.exp-afternoon a#next_slide {
+  border-color: #16110e;
+  color: #16110e;
+}
+/* line 621, ../sass/styles.scss */
+.exp-afternoon a#next_slide:hover {
+  border-color: #16110e;
+  background: #cdba9f;
+  color: #16110e;
+}
+
+/* line 628, ../sass/styles.scss */
+section.evening {
+  background-image: url("/img/backgrounds/regal_purple1.jpg");
+}
+
+/* line 631, ../sass/styles.scss */
+.nav-evening {
+  background: linear-gradient(#352b29, #16110e);
+  background: -webkit-linear-gradient(#352b29, #16110e);
+  background: -moz-linear-gradient(#352b29, #16110e);
+  background: -ms-linear-gradient(#352b29, #16110e);
+  background: -o-linear-gradient(#352b29, #16110e);
+}
+
+/* line 639, ../sass/styles.scss */
+.exp-evening a#next_slide {
+  border-color: #16110e;
+  color: #16110e;
+}
+/* line 643, ../sass/styles.scss */
+.exp-evening a#next_slide:hover {
+  border-color: #16110e;
+  background: #352b29;
+  color: #999999;
+}
+
+/* Overlays */
+/* line 652, ../sass/styles.scss */
+.work-overlay {
+  background: #333333;
+  padding: 20px 0 30px;
+}
+/* line 655, ../sass/styles.scss */
+.work-overlay h2 {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  color: #999999;
+  width: auto;
+  margin: 0 0 1em 2%;
+}
+/* line 664, ../sass/styles.scss */
+.work-overlay img.screen_1 {
+  width: 36%;
+  position: relative;
+  float: left;
+  margin: 0 4% 10px 2%;
+  padding: 0;
+}
+/* line 671, ../sass/styles.scss */
+.work-overlay p {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  color: #999999;
+  margin: 0 2% 1em 2%;
+  line-height: 1.5;
+  padding: 0;
+}
+
+/* line 682, ../sass/styles.scss */
+.experience_overlay {
+  background: url("/img/backgrounds/whitestones_bkgd.jpg") no-repeat transparent;
+  background-size: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* line 693, ../sass/styles.scss */
+.experience_overlay .overlay_close {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  position: absolute;
+  z-index: 1002;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+}
+
+/* line 703, ../sass/styles.scss */
+.experience_overlay .inner {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #173465;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+}
+
+/* line 712, ../sass/styles.scss */
+.text_block {
+  width: 60%;
+  height: auto;
+  position: relative;
+  z-index: 2000;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px 3%;
+  margin: 8% 0 0 20%;
+  color: #fff;
+  line-height: 1.5;
+}
